@@ -1,0 +1,2 @@
+all:
+	g++ -std=c++11 Figure.h TQueue.h TQueue.cpp TIterator.h TQueueItem.h TQueueItem.cpp Rectangle.h Rectangle.cpp Rhomb.h Rhomb.cpp Trapeze.h Trapeze.cpp TBinaryTree.h TBinaryTree.cpp IRemoveCriteria.h IRemoveCriteriaAll.h IRemoveCriteriaBySquare.h TreeNode.h main.cpp -o main.exe
