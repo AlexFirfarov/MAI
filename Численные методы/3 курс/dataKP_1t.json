@@ -1,8 +1,0 @@
-{
-  "K": "x * exp(t)",
-  "g": "exp(- x)",
-  "lambda": "0.5",
-  "interval": [0, 1],
-  "step": 0.05,
-  "solution": "x + exp(-x)"
-}

@@ -1,8 +1,0 @@
-{
-  "K": "sin(x) * t",
-  "g": "2 * sin(x)",
-  "lambda": "1/(2 * pi)",
-  "interval": [0, 3.1415926535897932],
-  "step": 0.1,
-  "solution": "4 * sin(x)"
-}

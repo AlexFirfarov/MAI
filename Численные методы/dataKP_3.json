@@ -1,8 +1,0 @@
-{
-  "K": "cos(x)*sin(t)",
-  "g": "sin(x)",
-  "lambda": "1/pi",
-  "interval": [0, 6.2831853071795864],
-  "step": 0.1,
-  "solution": "cos(x) + sin(x)"
-}
