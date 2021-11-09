@@ -1,0 +1,37 @@
+user@lubuntu:~/OC/lab2$ ./main.exe
+Кол-во дочерних процессов:
+4
+Введите предел последовательности:
+20
+Введите имя файла: 1
+Введите имя файла: 2
+Введите имя файла: 3
+Введите имя файла: 4
+user@lubuntu:~/OC/lab2$ cat 1
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 user@lubuntu:~/OC/lab2$
+user@lubuntu:~/OC/lab2$ cat 2
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 user@lubuntu:~/OC/lab2$
+user@lubuntu:~/OC/lab2$ cat 3
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 user@lubuntu:~/OC/lab2$
+user@lubuntu:~/OC/lab2$ cat 4
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 user@lubuntu:~/OC/lab2$
+user@lubuntu:~/OC/lab2$ ./main.exe
+Кол-во дочерних процессов:
+1
+Введите предел последовательности:
+5
+Введите имя файла: wwwwweeeeerrrrrtttttffffffggggggg
+user@lubuntu:~/OC/lab2$ cat wwwwweeeeerrrrrtttttffffffggggggg
+1 2 3 4 5 user@lubuntu:~/OC/lab2$
+user@lubuntu:~/OC/lab2$ ./main.exe
+Кол-во дочерних процессов:
+2
+Введите предел последовательности:
+1
+Введите имя файла: t.txt
+Введите имя файла: k.txt
+user@lubuntu:~/OC/lab2$ cat t.txt
+1 user@lubuntu:~/OC/lab2$
+user@lubuntu:~/OC/lab2$ cat k.txt
+1 user@lubuntu:~/OC/lab2$
+user@lubuntu:~/OC/lab2$
