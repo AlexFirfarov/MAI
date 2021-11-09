@@ -1,5 +1,0 @@
-(defun knight-threat-p (k l m n)
-    (if (or (and (= m (+ k 1)) (or (= n (+ l 2)) (= n (- l 2))))
-            (and (= m (+ k 2)) (or (= n (+ l 1)) (= n (- l 1))))
-            (and (= m (- k 1)) (or (= n (+ l 2)) (= n (- l 2))))
-            (and (= m (- k 2)) (or (= n (+ l 1)) (= n (- l 1))))) t nil))
